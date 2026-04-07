@@ -42,6 +42,16 @@ int main() {
   printf("Pontos tÚristicos: %d\n", turisticos1);
   printf("Densidade populacional: %f\n", densidade2);
 
+  //comparaçao de carta 1 e carta 2//
+  printf("população da carta1 venceu: %d\n", populacao1 > populacao2);
+  printf("A Área da carta1 venceu: %d\n", area1 > area2);
+  printf("O PIB da carta1 venceu: %d\n", pib1 > pib2);
+  printf("Os Pontos Túristicos da carta1 venceu: %d\n", turisticos1 > turisticos2);
+  printf("A Densidade da carta2 venceu: %d\n", densidade1 < densidade2);
+  printf("O PibPercapita da carta1 venceu: %d\n", pibPerCapita1 > pibpercapita2);
+  printf("*** CARTA 1 VENCEU O JOGO ***");
+
+
 
 return 0;
 } 
