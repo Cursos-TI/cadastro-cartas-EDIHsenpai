@@ -34,6 +34,8 @@ int main() {
   printf("Pontos turisticos: %d\n",turisticos1);
   printf("Densidade populacional: %f\n", densidade1);
   
+  printf("\n");
+
   // Área para entrada de dados 2 //
   printf("Cidade: %s\n", cidade2);
   printf("População: %d\n", populacao2);
@@ -42,6 +44,8 @@ int main() {
   printf("Pontos tÚristicos: %d\n", turisticos1);
   printf("Densidade populacional: %f\n", densidade2);
 
+  printf("\n");
+
   //comparaçao de carta 1 e carta 2//
   printf("população da carta1 venceu: %d\n", populacao1 > populacao2);
   printf("A Área da carta1 venceu: %d\n", area1 > area2);
@@ -49,6 +53,7 @@ int main() {
   printf("Os Pontos Túristicos da carta1 venceu: %d\n", turisticos1 > turisticos2);
   printf("A Densidade da carta2 venceu: %d\n", densidade1 < densidade2);
   printf("O PibPercapita da carta1 venceu: %d\n", pibPerCapita1 > pibpercapita2);
+  printf("\n");
   printf("*** CARTA 1 VENCEU O JOGO ***");
 
 
