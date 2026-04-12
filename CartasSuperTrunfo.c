@@ -15,6 +15,7 @@ int main() {
 
   float densidade1 = populacao1 / area1;
   float pibPerCapita1 = (pib1 * 1000000000) / populacao1;
+
   
   //*CARTA 2, ESTADO B,CODIGO A02*//
   char cidade2[20] = "Rio de Jaeiro";
@@ -54,9 +55,21 @@ int main() {
   printf("A Densidade da carta2 venceu: %d\n", densidade1 < densidade2);
   printf("O PibPercapita da carta1 venceu: %d\n", pibPerCapita1 > pibpercapita2);
   printf("\n");
-  printf("*** CARTA 1 VENCEU O JOGO ***");
+  printf("*** CARTA 1 VENCEU O JOGO ***\n");
 
+  printf("Entre com a população1: \n");
+  scanf("%d", &populacao1);
+  printf("Entre com população2: \n");
+  scanf("%d", &populacao2);
 
+    populacao1 = 12325000;
+    populacao2 = 6748000;
+  if(populacao1 > populacao2){
+    printf("População1 é superior a população2\n");
+  }else{
+    printf("população1 é inferior a população2\n");
+  }
+  printf("***Carta 1 (São Paulo) venceu!***");
 
 return 0;
 } 
